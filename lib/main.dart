@@ -8,6 +8,7 @@ import 'package:flutter_mic_ui/app/input_fields/custom_password.dart';
 import 'package:flutter_mic_ui/app/input_fields/custom_password_ux.dart';
 import 'package:flutter_mic_ui/app/page_view/card_page.dart';
 import 'package:flutter_mic_ui/app/page_view/card_page_view.dart';
+import 'package:flutter_mic_ui/app/switch_btn/switch_btn.dart';
 import 'package:flutter_mic_ui/app/ui_dark_1/custom_layout.dart';
 import 'package:flutter_mic_ui/app/ui_dark_2/dark_theme_layout.dart';
 import 'package:flutter_mic_ui/app/ui_dark_2/theme_button.dart';
@@ -45,8 +46,9 @@ class MyApp extends StatelessWidget {
       // home: CustomPasswordInput(),
       // home: CustomPasswordUx(),
       // home: CustomLayout(),
-      home: ThemeButton(),
+      // home: ThemeButton(),
       // home: DarkThemeLayout(),
+      home: SwitchBtn(),
       debugShowCheckedModeBanner: false,
     );
   }
